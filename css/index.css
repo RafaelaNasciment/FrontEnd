@@ -1,7 +1,7 @@
 header{
     display: flex;
     justify-content: space-between;
-    background-color: #7c5e99;
+    background-color: #920735;
     border-bottom:10px solid #000;
     padding: 10px 20px;
 }
@@ -13,7 +13,7 @@ nav{
 a{
     display: inline-flex;
     align-items: center;
-    color: #FFFFFF;
+    color: #ffffffc9;
     font-size: 20px;
     font-family: "Fira Code", Arial, Helvetica, sans-serif; 
     font-weight: 500;
@@ -23,7 +23,7 @@ a{
 
 a:before{
     content: "";
-    background-color: #F25A70;
+    background-color: #000000;
     width: 10px;
     height: 10px;
     margin-right: 10px;    
@@ -35,9 +35,12 @@ a:before{
     padding: 18px 20px;
     box-shadow: 5px 5px 0px #000000;
     margin-right: 0px;
+    transition: transform 100ms linear, opacity 300ms ease-in-out;
     
 }
 
 #button:hover{
     background-color: #4400ff;
+    transform: scale(1.08);
+    opacity: 0.5;
 }
